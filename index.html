@@ -10,11 +10,10 @@
 </head>
 <body>
     <div class="top-nav">
-        <div class="column">
-
-            <img src="assets/images/logo.png" width="50" height="50" alt="">
+        <div id="brand" class="column">
+            <img src="assets/images/logo1.png" width="300" height="80" style="margin-right:0px; margin-top:-20px;" alt="">
         </div>
-        <div class="column">
+        <div id="links" class="column">
             
             <ul>
                 <li><a href="default.asp">Home</a></li>
@@ -24,24 +23,41 @@
               </ul> 
         </div>
 
+        <div id="intro">
+            <div id="intro-info">
+
+                <h1>Rain or shine,<br> it is time to dine</h1>
+
+                <p>We cook and deliver the tastiest burgers <br>
+                    right away to your designated locatio</p>
+
+                <button>Order Now</button>
+
+            </div>
+            <div id="intro-pic">
+
+                <img id="main-burger" src="assets/images/main-burger.png" width="300" height="450" alt="main-burger">
+
+            </div>
+
+        </div>
+
     </div>
 
 
     <!-- MENU LIST -->
-    <div class="row" style="margin-bottom: 50px;">
-         <div class="column">
+    <div id="main-menu" class="row" style="margin-bottom: 50px;">
+         <div id="menu1" class="column">
           <div class="menu-item" style="border:1px solid purple;">
               <img src="assets/images/icon-1.png" alt="" width="80" height="70">
               <h3>Quality Burgers</h3>
               <p>Lorem, ipsum dolor sit amet consectetur 
                   adipisicing elit. Distinctio nesciunt saepe 
-                  sit dicta sequi culpa eos perspiciatis veniam,
-                  error harum libero obcaecati exercitationem. 
-                  Corrupti a similique assumenda, sequi minima ipsum?</p>
+                  sit dicta sequi culpa eos perspiciatis veniam.</p>
           </div>
         </div>
-        <div class="column">
-            <div class="menu-item" style="border:1px solid purple; margin-top: -30px; height:440px; padding-top:30px;">
+        <div id="menu2" class="column">
+            <div class="menu-item" style="border:1px solid purple; margin-top: -30px; height:400px; padding-top:30px;">
                 <img src="assets/images/icon-2.png" alt=""  width="80" height="70">
                 <h3>Fast Delivery</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur 
@@ -51,15 +67,13 @@
                     Corrupti a similique assumenda, sequi minima ipsum?</p>
             </div>
         </div>
-        <div class="column">
+        <div id="menu3" class="column">
             <div class="menu-item" style="border:1px solid purple;">
                 <img src="assets/images/icon-3.png" alt=""  width="80" height="70">
                 <h3>Fast Meal</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur 
                     adipisicing elit. Distinctio nesciunt saepe 
-                    sit dicta sequi culpa eos perspiciatis veniam,
-                    error harum libero obcaecati exercitationem. 
-                    Corrupti a similique assumenda, sequi minima ipsum?</p>
+                    sit dicta sequi culpa eos perspiciatis veniam.</p>
 
             </div>
         </div>
@@ -67,25 +81,24 @@
 
 
     <!-- MENU LIST -->
-    <div class="row">
+    <div class="row" id="menu-foods">
         <p id="menu-title"><spanp id="belongs">Our</span> <span id="menu">Menu</spanp></p>
-        <hr style="font-weight:bold; border:none; margin-bottom:40px; width:80px; height:10px; background-color:rgba(255, 94, 0, 0.767);">
+        <hr style="font-weight:bold; border:none; margin-left:auto; margin-right:auto; margin-bottom:40px; width:80px; height:10px; background-color:rgba(255, 94, 0, 0.767);">
         <div class="column">
-          <div class="menu-item">
-              <img src="assets/images/bugger-1.png" alt="" width="220" height="220">
-              <h3>DOUBLE BURGER</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur 
-                  adipisicing elit. Distinctio nesciunt saepe 
-                  sit dicta sequi culpa eos perspiciatis veniam,
-                  error harum libero obcaecati exercitationem. 
-                  Corrupti a similique assumenda, sequi minima ipsum?</p>
-                  <div id="cash-details">
-                    <h4>Ksh 200</h4>
-                    <span>
-                        <img src="" alt="">
-                    </span>
-                </div>
-          </div>
+            <div class="menu-item">
+                <img src="assets/images/bugger-2.png" alt="" width="220" height="220">
+                <h3>DOUBLE BURGER</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Distinctio nesciunt saepe 
+                    sit dicta sequi culpa eos perspiciatis veniam,
+                    error harum libero.</p>
+                    <div id="cash-details">
+                        <h4>Ksh 200</h4>
+                        <div id="add-to-cart">
+                            <img src="assets/icons/shopping-cart.png" width="25" height="25" alt="">
+                        </div>
+                    </div>
+            </div>
         </div>
         <div class="column">
             <div class="menu-item">
@@ -94,75 +107,78 @@
                 <p>Lorem, ipsum dolor sit amet consectetur 
                     adipisicing elit. Distinctio nesciunt saepe 
                     sit dicta sequi culpa eos perspiciatis veniam,
-                    error harum libero obcaecati exercitationem. 
-                    Corrupti a similique assumenda, sequi minima ipsum?</p>
+                    error harum libero.</p>
                     <div id="cash-details">
                         <h4>Ksh 200</h4>
-                        <span>
-                            <img src="" alt="">
-                        </span>
+                        <div id="add-to-cart">
+                            <span id="minus">-</span>  2 <span id="plus">+</span>
+                        </div>
                     </div>
             </div>
         </div>
         <div class="column">
             <div class="menu-item">
-                <img src="assets/images/bugger-3.png" alt="" width="220" height="220">
+                <img src="assets/images/bugger-2.png" alt="" width="220" height="220">
                 <h3>DOUBLE BURGER</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur 
                     adipisicing elit. Distinctio nesciunt saepe 
                     sit dicta sequi culpa eos perspiciatis veniam,
-                    error harum libero obcaecati exercitationem. 
-                    Corrupti a similique assumenda, sequi minima ipsum?</p>
+                    error harum libero.</p>
                     <div id="cash-details">
                         <h4>Ksh 200</h4>
-                        <img src="" alt="">
+                        <div id="add-to-cart">
+                            <img src="assets/icons/shopping-cart.png" width="25" height="25" alt="">
+                        </div>
                     </div>
             </div>
         </div>
       </div> 
       <div class="row">
         <div class="column">
-          <div class="menu-item">
-            <img src="assets/images/bugger-4.png" alt="" width="220" height="220">
-            <h3>DOUBLE BURGER</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur 
-                  adipisicing elit. Distinctio nesciunt saepe 
-                  sit dicta sequi culpa eos perspiciatis veniam,
-                  error harum libero obcaecati exercitationem. 
-                  Corrupti a similique assumenda, sequi minima ipsum?</p>
-                  <div id="cash-details">
-                    <h4>Ksh 200</h4>
-                    <img src="" alt="">
-                </div>
-          </div>
-        </div>
-        <div class="column">
             <div class="menu-item">
-                <img src="assets/images/bugger-5.png" alt="" width="220" height="220">
+                <img src="assets/images/bugger-2.png" alt="" width="220" height="220">
                 <h3>DOUBLE BURGER</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur 
                     adipisicing elit. Distinctio nesciunt saepe 
                     sit dicta sequi culpa eos perspiciatis veniam,
-                    error harum libero obcaecati exercitationem. 
-                    Corrupti a similique assumenda, sequi minima ipsum?</p>
-                <div id="cash-details">
-                    <h4>Ksh 200</h4>
-                    <img src="" alt="">
-                </div>
+                    error harum libero.</p>
+                    <div id="cash-details">
+                        <h4>Ksh 200</h4>
+                        <div id="add-to-cart">
+                            <img src="assets/icons/shopping-cart.png" width="25" height="25" alt="">
+                        </div>
+                    </div>
             </div>
         </div>
         <div class="column">
             <div class="menu-item">
-                <img src="assets/images/bugger-6.png" alt="" width="220" height="220">
+                <img src="assets/images/bugger-2.png" alt="" width="220" height="220">
                 <h3>DOUBLE BURGER</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur 
                     adipisicing elit. Distinctio nesciunt saepe 
                     sit dicta sequi culpa eos perspiciatis veniam,
-                    error harum libero obcaecati exercitationem. 
-                    Corrupti a similique assumenda, sequi minima ipsum?</p>
+                    error harum libero.</p>
                     <div id="cash-details">
                         <h4>Ksh 200</h4>
-                        <img src="" alt="">
+                        <div id="add-to-cart">
+                            <img src="assets/icons/shopping-cart.png" width="25" height="25" alt="">
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="menu-item">
+                <img src="assets/images/bugger-2.png" alt="" width="220" height="220">
+                <h3>DOUBLE BURGER</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Distinctio nesciunt saepe 
+                    sit dicta sequi culpa eos perspiciatis veniam,
+                    error harum libero.</p>
+                    <div id="cash-details">
+                        <h4>Ksh 200</h4>
+                        <div id="add-to-cart">
+                            <img src="assets/icons/shopping-cart.png" width="25" height="25" alt="">
+                        </div>
                     </div>
             </div>
         </div>
@@ -172,7 +188,7 @@
         <h1 style=" font-weight:bold; color:black;">
             The Double
         </h1>
-        <h1 style="color: peru;">
+        <h1 style="color: yellow;">
             Decker
         </h1>
         <p>Taste the explosion in your mouth</p>
@@ -201,7 +217,7 @@
       <img src="assets/images/logo.png" width="50" height="50" alt="">
       
       </div>
-    <div class="column">
+    <div class="column" id="sitemap">
         <h3>Sitemap</h3>
        <ul style="list-style-type:none;">
            <li>Home</li>
@@ -210,13 +226,28 @@
            <li>Contact</li>
        </ul>
     </div>
-    <div class="column" style="margin-top:150px;">
-        <img src="assets/images/icons.png" alt="">
-    </div>
     
-    <div class="column">
-        <img src="assets/images/subscribe.png" alt="">
+    
+    <div id="subscription" class="column">
+        <h3>Subscribe to our news letter</h3>
+        <div class="subs-input">
+        <input type="text" placeholder="Enter your email">
+        <button>Subscribe</button>
+        </div>
     </div>
   </div> 
+  <div class="copyright">
+
+    <p class="copyright-info" style="padding-left:20px;">Copyright all rights reserved</p>
+    <div class="copyright-info">
+        <img class="social-media" src="assets/icons/facebook.png" width="25" height="25" alt="">
+        <img class="social-media" src="assets/icons/youtube.png" width="25" height="25" alt="">
+        <img class="social-media" src="assets/icons/twitter.png" width="25" height="25" alt="">
+        <img  class="social-media" src="assets/icons/instagram.png" width="25" height="25" alt="">
+        <img class="social-media" src="assets/icons/linkedin.png" width="25" height="25" alt="">
+    </div>
+    <p style="text-align:right; padding-right:20px;" class="copyright-info">Designed by James Murithi</p>
+
+  </div>
 </body>
 </html>
