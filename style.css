@@ -250,7 +250,10 @@
 
     text-align:left;
     margin-bottom:-29px;
+    margin-top:150px;
     padding-left:100px;
+    background-color: rgb(244, 247, 247);
+
 
   }
 
@@ -262,6 +265,27 @@
     padding: 0 10px;
     font-size:22px;
     font-weight:bold;
+    background-color: rgb(244, 247, 247);
+
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .arrow{
+
+    content: "\2192";
+    box-sizing:border-box;
+    display:inline-block;
+    font-size:90px;
+    margin-bottom:-40px;
+    color:rgb(189, 103, 88);
+
   }
 
   #display-item-1
@@ -279,6 +303,7 @@
     font-weight:bold;
     color:grey;
     margin-top:30px;
+    margin-bottom:20px;
   }
 
 
@@ -323,6 +348,8 @@
     width: 32%;
     padding: 0 0px;
     text-align:left;
+    background-color: rgb(244, 247, 247);
+
 
 
 
@@ -369,6 +396,9 @@
     padding-top:20px;
     height:200px;
     margin-top:0px;
+    background-color: rgb(244, 247, 247);
+    margin-bottom:10px;
+
 
   }
   
@@ -426,6 +456,7 @@
     display:flex;
     width:100%;
     justify-content:end;
+    padding-bottom:10px;
   }
 
   .copyright-info{
